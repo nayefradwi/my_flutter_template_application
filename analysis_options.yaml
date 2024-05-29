@@ -1,1 +1,13 @@
-include: package:flutter_lints/flutter.yaml
+include: package:very_good_analysis/analysis_options.5.1.0.yaml
+analyzer:
+  exclude:
+    - lib/gen/**
+    - lib/firebase_options_*.dart
+
+linter:
+  rules:
+    public_member_api_docs: false
+    sort_constructors_first: false
+    avoid_positional_boolean_parameters: false
+    avoid_dynamic_calls: false
+    flutter_style_todos: false
