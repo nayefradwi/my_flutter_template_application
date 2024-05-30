@@ -430,16 +430,16 @@ packages:
     description:
       path: "packages/nayef_common_domain_toolkit"
       ref: main
-      resolved-ref: "18d98ceee9b5485cef3ab7ad3d26cb79653601da"
+      resolved-ref: "9bd892cf9b81ee744e5c6c12b2004df528447daa"
       url: "https://github.com/nayefradwi/nayef_flutter_dart_commons"
     source: git
-    version: "1.1.0"
+    version: "1.2.0"
   nayef_common_widgets:
     dependency: "direct main"
     description:
       path: "packages/nayef_common_widgets"
       ref: main
-      resolved-ref: "18d98ceee9b5485cef3ab7ad3d26cb79653601da"
+      resolved-ref: "9bd892cf9b81ee744e5c6c12b2004df528447daa"
       url: "https://github.com/nayefradwi/nayef_flutter_dart_commons"
     source: git
     version: "0.1.0"
@@ -459,6 +459,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
+  package_info_plus:
+    dependency: "direct main"
+    description:
+      name: package_info_plus
+      sha256: b93d8b4d624b4ea19b0a5a208b2d6eff06004bc3ce74c06040b120eeadd00ce0
+      url: "https://pub.dev"
+    source: hosted
+    version: "8.0.0"
+  package_info_plus_platform_interface:
+    dependency: transitive
+    description:
+      name: package_info_plus_platform_interface
+      sha256: f49918f3433a3146047372f9d4f1f847511f2acd5cd030e1f44fe5a50036b70e
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
   path:
     dependency: transitive
     description:
