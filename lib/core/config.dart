@@ -26,7 +26,7 @@ enum Flavor {
   }
 }
 
-void registerFlavor({required Flavor flavor}) {
+void registerFlavor() {
   try {
     final flavor = Flavor.fromString(_appFlavor);
     GetIt.I.registerSingleton<Flavor>(flavor);
