@@ -13,6 +13,8 @@ dependencies:
     sdk: flutter
   flutter_bloc: ^8.1.5
   flutter_launcher_icons: ^0.13.1
+  flutter_localizations:
+    sdk: flutter
   flutter_native_splash: ^2.4.0
   flutter_secure_storage: ^9.2.2
   get_it: ^7.7.0
@@ -45,3 +47,14 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  generate: true
+  assets:
+    - assets/
+    - assets/images/
+
+  # fonts:
+  #   - family: Cabin
+  #     fonts:
+  #       - asset: fonts/Cabin-Bold.ttf
+  #         weight: 700
+  #         style: normal
