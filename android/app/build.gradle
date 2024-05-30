@@ -42,6 +42,21 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutterVersionCode.toInteger()
         versionName = flutterVersionName
+        flavorDimensions = "flavor"
+        productFlavors {
+            dev {
+                dimension "flavor"
+                applicationIdSuffix ".dev"
+            }
+            staging {
+                dimension "flavor"
+                applicationIdSuffix ".staging"
+            }
+            prod {
+                dimension "flavor"
+                applicationIdSuffix ".prod"
+            }
+        }
     }
 
     buildTypes {
