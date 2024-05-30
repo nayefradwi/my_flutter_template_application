@@ -32,6 +32,7 @@ dependencies:
       url: https://github.com/nayefradwi/nayef_flutter_dart_commons
       path: packages/nayef_common_widgets
       ref: main
+  shared_preferences: ^2.2.3
 
 
 dev_dependencies:
