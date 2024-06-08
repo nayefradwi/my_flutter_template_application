@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "staging debug",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--flavor",
+                "staging",
+                "--dart-define-from-file=.staging.json",
+            ]
+        },
+    ]
+}
