@@ -500,10 +500,10 @@ packages:
     description:
       path: "packages/nayef_common_domain_toolkit"
       ref: main
-      resolved-ref: "9bd892cf9b81ee744e5c6c12b2004df528447daa"
+      resolved-ref: "67ef2956305a587eac45bd3896cbad294f60e7a5"
       url: "https://github.com/nayefradwi/nayef_flutter_dart_commons"
     source: git
-    version: "1.2.0"
+    version: "1.2.1"
   nayef_common_widgets:
     dependency: "direct main"
     description:
