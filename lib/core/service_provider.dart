@@ -43,7 +43,9 @@ class ServiceProvider {
         ),
       ),
     );
+    appDeviceInfoService = DeviceInfoService();
     settingsStorage = PreferencesStorage();
+    client = MainApiClient(baseUrl: '');
     _repos = _AppRepositories.create(
       settingsStorage: settingsStorage,
     );
